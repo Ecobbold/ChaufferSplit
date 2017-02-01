@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chauffer Split </string>
+    <string name="Trip_text">Trip distance</string>
+    <string name="Trip_line">km</string>
+    <string name="Tip_text">Tip</string>
+    <string name="Tip_line">%</string>
+    <string name="CustomTip">Custom Tip</string>
+    <string name="Split">Split ride with how many?</string>
+    <string name="min">-</string>
+    <string name="plus">+</string>
+    <string name="calculate">Calculate</string>
+</resources>
