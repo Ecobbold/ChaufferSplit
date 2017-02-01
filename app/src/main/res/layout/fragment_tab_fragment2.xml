@@ -2,14 +2,44 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingStart="35dp"
+    android:paddingEnd="30dp"
+    android:paddingTop="30dp"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
+        android:text="@string/Bill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Breakdown"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:id="@+id/textView1"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:text="@string/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/Bill_Breakdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
 
 </RelativeLayout>

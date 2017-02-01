@@ -10,4 +10,7 @@
     <string name="plus">+</string>
     <string name="calculate">Calculate</string>
     <string name="action_settings">Settings</string>
+    <string name="Bill_Breakdown">Bill Breakdown</string>
+    <string name="Bill">Traveling __._ Km with __ riders with a __% tip will be:</string>
+    <string name="price">$ __.__ per rider</string>
 </resources>
